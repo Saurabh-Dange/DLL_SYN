@@ -29,7 +29,7 @@ extern "C" {
 		if (INVALID_HANDLE_VALUE == hConout)
 			return EOF;
 
-		
+		cout << "Thread 2 \n";
 		cout << "Your sequence is \n";
 		while (n!=0)
 		{
